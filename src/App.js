@@ -1,33 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import './crossword/Crucigrama.css';
+import Crucigrama from "./crossword/Crucigrama";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-logo"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Santi puto
-        </a>
-      </header>
+        <button className="Button" onClick={Crucigrama}> Button</button>
+        <button className="Button"> Button</button>
     </div>
   );
 }
 
-function Crucigrama(){
-  return (
-   <div className="">
-
-   </div>
-  );
-}
-
-export default App;
+export default Crucigrama;

@@ -1,0 +1,22 @@
+.Crucigrama {
+    text-align: center;
+}
+
+.Layout {
+    background-color: indigo;
+    width: 100px ;
+    height: 100px;
+}
+
+.SquaresInLayout{
+
+}
+
+.CruciHead {
+    font-family: "Comic Sans MS", serif;
+    color: indigo;
+}
+
+.MainBody {
+    background-color: lightgrey;
+}
