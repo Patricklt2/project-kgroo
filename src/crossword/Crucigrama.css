@@ -20,3 +20,9 @@
 .MainBody {
     background-color: lightgrey;
 }
+
+.p {
+    font-family: "Times New Roman", serif;
+    color: indigo;
+    font-size: large;
+}
